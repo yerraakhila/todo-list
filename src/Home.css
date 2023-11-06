@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    font-family:sans-serif;
+}
+.body-division{
+    min-height: 100vh;
+    background-color: #1f1e1e;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.division-without-heading{
+    background-color: #323131;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.entering-adding-task-division{
+    width: 100%;
+    display: flex; 
+    gap: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:10px
+}
+label{
+    font-size: 25px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: rgb(9, 232, 91);
+    border: none;
+    color: white;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+}
+.completed-button{
+    background-color: #6d6b6b;
+}
+.added-task-icons{
+    color: white;
+}
+.displaying-tasks-division{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #484646;
+    padding: 20px;
+    box-shadow: 0px 3px 5px rgb(43,42,42);
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(9, 232, 91);
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.todo-completed-buttons-division{
+    padding-bottom: 10px;
+}
+.task-description-division{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.delete{
+    font-size: 30px;
+}
+.check{
+    font-size: 30px;
+    color: rgb(9, 232, 91);;
+}
+.check-delete-icons{
+    display: flex;
+    gap:10px;
+}
+.icon:hover{
+    color:red;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
